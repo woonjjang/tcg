@@ -1,11 +1,11 @@
-title: My cool site
-description: Text about my cool site
+title: TCG
+description: Text Consulting Group
 images:
   - site-feature-image.jpg
 
 license:
-  title_of_work: This website
-  link_to_work: URL
-  createor_of_work: NAME
-  link_to_creator_profile: URL
-  year_of_creation: 2021
+  title_of_work: TCG
+  link_to_work: Github.com/woonjjang
+  createor_of_work: woonjjang
+  link_to_creator_profile: Github.com/woonjjang
+  year_of_creation: 2022
