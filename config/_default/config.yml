@@ -1,5 +1,15 @@
 # https://gohugo.io/getting-started/configuration/
 
 title: Text Consulting Group
-languageCode: kr-ko
+description: Text와 Code를 씁니다.
+
+languageCode: ko-kr
+defaultContentLanguage: ko
 hasCJKLanguage: true
+
+build:
+  writeStats: true
+
+disableKinds:
+- taxonomy
+- term
