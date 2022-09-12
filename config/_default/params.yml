@@ -1,7 +1,8 @@
+# themeNoPipe: true
 title: TCG
 description: Text Consulting Group
 images:
-  - site-feature-image.jpg
+  - https://private.textconsulting.io/red-bg.jpg
 
 license:
   title_of_work: TCG
@@ -9,3 +10,24 @@ license:
   createor_of_work: woonjjang
   link_to_creator_profile: Github.com/woonjjang
   year_of_creation: 2022
+
+logo: 
+footerLogo: https://private.textconsulting.io/red-bg.jpg
+header:
+  bg: bg-gray-200
+  text: text-gray-900
+
+footer:
+  logo: https://private.textconsulting.io/red-bg.jpg
+  주소: 강원도 삼척시 사직로 8 2층
+  이메일: hello@textconsulting.io
+  url: textconsulting.io
+  caption: TCG HQ
+  github: https://github.com/text-consulting-group
+
+assets:
+  alpinejs:
+  - core: https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js
+
+googleFonts:
+  notosanskr: https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@100;400;700&display=swap

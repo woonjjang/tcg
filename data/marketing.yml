@@ -1,0 +1,56 @@
+######## Partials/Marketing에 노출되는 사용자 데이터를 편집합니다. ########
+
+############################ card ##########################
+############# 1-column / 3-column / 4-column ###############
+card:
+  layout: 4-column
+  bg: bg-white
+  category: 프로젝트
+  title: 프로젝트 소개
+  enable: true
+  content: Text Consulting Group의 프로젝트를 모았습니다.
+  listItem:
+    - category : text
+      title : digital literacy for teens
+      description : digital literacy 관련된 이슈가 커질 것으로 보여서, 각 세대별 인터뷰를 진행했습니다.
+      image : https://private.textconsulting.io/red-bg.jpg
+      date: 2022-02-02
+      author: 한운장
+      creator: 한운장
+      url : https://t.textconsulting.io/texts/digital-literacy-for-teens/
+      target_label : 더 읽어보기
+    - category : code
+      title : team-durumi 2022
+      description : 팀 두루미는 2022년 roll 개발 및 다양한 소프트웨어를 개발하고 있습니다.
+      image : https://imagedelivery.net/HNz7JY-tqCMn4BPZPCyC6w/9b2bff09-6baf-43b7-02bd-94b9c2116400/sqaure
+      date: 2022-01-01
+      author: 작성자
+      creator: 홍보팀
+      url : https://durumi.io
+      target_label : 더 보기
+
+############################ FAQ ##########################
+faq:
+  title : 자주 묻는 질문
+  enable : true
+  content : 자주 묻는 질문들을 모아놓았습니다. 궁금증을 해소하세요.
+  url : http://durumi.io
+  listItem:
+
+    - question : 아카이브에 포함된 데이터는 어디서 가져오는 것인가요 ?
+      answer : 폴더형태로 저장되어 있는 사용자의 개별 클라우드 서비스(구글드라이브, 드롭박스, 아마존 S3)와 메타정보가 기록된 공개된 엑셀파일을 기준으로 노출합니다. 따라서, 완전히 공개된 자료를 처리하는데 특화된 디지털아카이브 솔루션입니다. 
+
+    - question : 관련된 자료들을 기사/논문/영상에 참조하기 위해서는 어떤 규정을 지켜야 하나요 ?
+      answer : 현재 보고 있는 기사 / 논문 / 영상은 완전히 공개되어 있는 자료입니다. 기사/논문/영상에 사용할 때 "** 디지털아카이브의 자료"임을 밝히고 사용해주세요. 
+
+    - question : 이런 형태의 디지털아카이브를 사용하기 위해서는 웹서버 혹은 데이터베이스가 필요한가요 ?
+      answer : 아닙니다. 현재 사이트는 거대한 HTML 덩어리라고 상상하세요. 해당 HTML에 접근하기 위해서는 최소 사양의 웹서버만 지원되면됩니다. 따라서 Netlify, CloudFlare 같은 서비스를 통해 웹에 공개해 놓습니다. 하지만 대규모의 디지털아카이브 프로젝트에서는 서버나 데이터베이스가 필요할 수 있습니다. 검색엔진을 설치하고 돌리기도 하니까요.
+
+    - question : 개발에 걸리는 시간은 어느 정도되나요 ?
+      answer : 사용자가 공개하고자 하는 기록/자료를 정리하는데 드는 시간, 사용자 정보를 정리하는 시간, 디자인을 결정하거나 별도의 기능을 요청하는 경우에 시간이 많이 걸리게 됩니다. 현재 보이는 모습 그대로 디지털아카이브를 공개하는 것은 오래 걸리지 않습니다.
+
+    - question : 소프트웨어 업데이트는 어떻게 진행되나요 ?
+      answer : 당연합니다. Team-durumi는 Opensource 정책과 생태계를 중요시 합니다. 다양한 디지털아카이브들이 지속적인 개발을 유지할 수 있게하는게 이 프로젝트의 목표입니다. 
+
+    - question : 왜 이런걸 만들게 된 거죠 ?
+      answer : 기록하고, 정리해 이를 공개하는 것은 모든 조직 혹은 개인이 하고자 하는 목표임을 확인했지만 ‘모두 무겁게 시스템을 만들고, 운영 소요가 많은 방식으로 디지털아카이브를 유지해야할까 ?’ 라는 의문이 있었습니다. 기관이나 사기업, 비영리 조직, 혹은 중간지원 조직도 모두 앞다투어 아카이브를 만들고자 하는 것을 확인했고, 조금 새로운 방식으로 접근해보고자 하였습니다.
