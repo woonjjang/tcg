@@ -29,6 +29,24 @@ card:
       url : https://durumi.io
       target_label : 더 보기
 
+########################## caruousel.html ##########################
+carousel:
+  enable: true
+  bg: bg-gray-900
+  listItem:
+  - src: https://r2.ccwps.org/resize/R2-Scanned000016.jpg
+    alt: '시리즈 - DMZ & MDR'
+    caption: '시리즈 - DMZ & MDR'
+    url : "/items/r2-dmz판문점/s2-dmzmdr/"
+  - src: https://r2.ccwps.org/resize/R1-013_1.jpg
+    alt: '한국 전쟁 RG- 포로, 수용소, 피난민, 학살, 일상'
+    caption: '한국 전쟁 RG- 포로, 수용소, 피난민, 학살, 일상'
+    url: "/items/r1-한국전쟁/"
+  - src: https://r2.ccwps.org/resize/comfortwomen-02.JPG
+    alt: '일본군 위안부 관련 증거 영상 발굴'
+    caption: '일본군 위안부 관련 증거 영상 발굴'
+    url : "/items/r3-일본군위안부/"
+    
 ############################ FAQ ##########################
 faq:
   title : 자주 묻는 질문

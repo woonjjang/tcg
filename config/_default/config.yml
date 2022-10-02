@@ -11,6 +11,14 @@ hasCJKLanguage: true
 build:
   writeStats: true
 
-disableKinds:
-- taxonomy
-- term
+permalinks:
+  items: /:section/:slug/
+
+googleAnalytics:
+
+taxonomies:
+  tag: tags
+  subject: subjects
+  creator: creators
+  venue: venues
+  source: sources
