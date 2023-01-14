@@ -13,7 +13,7 @@ card:
     - category : text
       title : digital literacy for teens
       description : digital literacy 관련된 이슈가 커질 것으로 보여서, 각 세대별 인터뷰를 진행했습니다.
-      image : https://private.textconsulting.io/red-bg.jpg
+      image : https://r2.textconsulting.io/red-text.jpg
       date: 2022-02-02
       author: 한운장
       creator: 한운장
@@ -22,7 +22,7 @@ card:
     - category : code
       title : team-durumi 2022
       description : 팀 두루미는 2022년 roll 개발 및 다양한 소프트웨어를 개발하고 있습니다.
-      image : https://imagedelivery.net/HNz7JY-tqCMn4BPZPCyC6w/9b2bff09-6baf-43b7-02bd-94b9c2116400/sqaure
+      image : https://r2.textconsulting.io/red-text.jpg
       date: 2022-01-01
       author: 작성자
       creator: 홍보팀
